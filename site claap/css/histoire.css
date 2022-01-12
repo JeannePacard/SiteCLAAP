@@ -1,0 +1,348 @@
+/* -------- TIMELINE -------- */
+
+#Timeline {
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+  height: 300px;
+  width: 3400px;
+  margin-bottom: 100px;
+}
+
+.event1,
+.event2,
+.event3 {
+  position: relative;
+}
+
+.event1History,
+.event2History,
+.event3History {
+  display: flex;
+}
+
+.event1Bubble:after,
+.event1Bubble:before,
+.event2Bubble:after,
+.event2Bubble:before,
+.event3Bubble:after,
+.event3Bubble:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom: 0;
+}
+
+.Timeline-circle,
+.Timeline-circle2,
+.Timeline-circle3,
+.Timeline-circle4,
+.Timeline-circle5,
+.Timeline-circle6,
+.Timeline-circle7,
+.Timeline-circle8 {
+  display: block;
+  content: "";
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 20px;
+  height: 20px;
+  background-color: #f0bdb0;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.Timeline-circle:hover,
+.Timeline-circle:active,
+.Timeline-circle2:hover,
+.Timeline-circle2:active,
+.Timeline-circle3:hover,
+.Timeline-circle3:active,
+.Timeline-circle4:hover,
+.Timeline-circle4:active,
+.Timeline-circle5:hover,
+.Timeline-circle5:active,
+.Timeline-circle6:hover,
+.Timeline-circle6:active,
+.Timeline-circle7:hover,
+.Timeline-circle7:active,
+.Timeline-circle8:hover,
+.Timeline-circle8:active {
+  background-color: #f0bdb088;
+}
+
+#Timeline-background,
+#Timeline-background2,
+#Timeline-background3,
+#Timeline-background4,
+#Timeline-background5,
+#Timeline-background6,
+#Timeline-background7,
+#Timeline-background8 {
+  color: #606163;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+
+.Timeline-background3 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+
+.Timeline-background4 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+
+.Timeline-background5 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+
+.Timeline-background6 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+.Timeline-background7 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+.Timeline-background8 {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.1;
+  margin-top: -15%;
+  font-size: 45rem;
+}
+
+/* ----------- FIRST CHILD ------------*/
+
+.Timeline-line {
+  display: block;
+  content: "";
+  width: 300px;
+  height: 2px;
+  background-color: #f0bdb0;
+}
+
+#event1Bubble {
+  position: absolute;
+  background-color: rgba(216, 216, 216, 0.103);
+  width: 300px;
+  height: auto;
+  left: -135px;
+  top: -280px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64);
+}
+
+.time {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60px;
+  margin-top: 10px;
+  font-size: 10px;
+  margin-left: -5px;
+  color: #9e9e9e;
+}
+
+/* ------------ Vers le BAS ----------- */
+
+.Timeline-line2 {
+  display: block;
+  content: "";
+  width: 400px;
+  height: 2px;
+  background-color: #f0bdb0;
+}
+
+#event2Bubble,
+#event4Bubble,
+#event6Bubble,
+#event8Bubble {
+  position: absolute;
+  background-color: rgba(216, 216, 216, 0.103);
+  width: 300px;
+  height: auto;
+  left: -135px;
+  top: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64);
+}
+
+#event2Bubble:before,
+#event4Bubble:before,
+#event6Bubble:before,
+#event8Bubble:before {
+  top: -10px;
+  left: 103px;
+  border-top-color: rgba(222, 222, 222, 0.66);
+  border-width: 12px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#event2Bubble:after,
+#event4Bubble:after,
+#event6Bubble:after,
+#event8Bubble:after {
+  top: -8px;
+  left: 103px;
+  border-top-color: #f6f6f6;
+  border-width: 12px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  opacity: 0.8;
+}
+
+.time2 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 75px;
+  font-size: 10px;
+  margin-top: -48px;
+  margin-left: -5px;
+  color: #9e9e9e;
+}
+
+/* ------------ Vers le HAUT ----------- */
+
+.Timeline-line3 {
+  display: block;
+  content: "";
+  width: 400px;
+  height: 2px;
+  background-color: #f0bdb0;
+}
+
+#event3Bubble,
+#event5Bubble,
+#event7Bubble {
+  position: absolute;
+  background-color: rgba(216, 216, 216, 0.103);
+  width: 300px;
+  height: auto;
+  left: -135px;
+  top: -280px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(158, 158, 158, 0.64);
+}
+
+#event5Bubble {
+  top: -300px;
+}
+
+#event3Bubble:before,
+#event5Bubble:before,
+#event7Bubble:before {
+  bottom: -10px;
+  left: 95px;
+  border-top-color: rgba(222, 222, 222, 0.66);
+  border-width: 12px;
+}
+
+#event3Bubble:after,
+#event5Bubble:after,
+#event7Bubble:after {
+  bottom: -8px;
+  left: 95px;
+  border-top-color: #f6f6f6;
+  border-width: 12px;
+  opacity: 0.8;
+}
+
+.time3 {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70px;
+  font-size: 10px;
+  margin-top: 15px;
+  margin-left: -5px;
+  color: #9e9e9e;
+}
+
+/* ------------ LAST CHILD ----------- */
+
+#event8Bubble {
+  margin-right: 3rem;
+}
+
+.Timeline-lineEND {
+  display: block;
+  content: "";
+  width: 300px;
+  height: 2px;
+  background-color: #77716f;
+}
+
+/* ----------- RETURN -------------*/
+
+.timeline-END img {
+  width: 80%;
+}
+
+.timeline-END {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 100px;
+  margin-left: 95%;
+  margin-right: 3px;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

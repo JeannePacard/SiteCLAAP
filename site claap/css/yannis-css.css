@@ -1,0 +1,270 @@
+﻿/* GÉNÉRAL */
+
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.align-img {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.align-description {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+  margin-left: 2%;
+  width: 100%;
+}
+
+.align-prenom {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #232877;
+}
+
+.align-prenom::after {
+  display: block;
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: #f0bdb0;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+.align-presentation {
+  margin-top: 2%;
+}
+
+/*JEANNE*/
+
+.alinea {
+  text-indent: 20px;
+}
+
+/*SHERINE*/
+
+.imageS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+#Poster1,
+#Poster2,
+#Poster3 {
+  width: 15%;
+  height: 15%;
+  margin-left: 8%;
+}
+
+.serie-title {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.liste {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#series {
+  display: inline-block;
+}
+
+#manga {
+  display: inline-block;
+}
+
+/*Gabriella*/
+
+.boucleur {
+  display: flex;
+  color: black;
+  align-items: center;
+}
+
+.PhotoB {
+  margin: 5%;
+}
+
+.Chaton {
+  display: flex;
+  align-items: center;
+}
+
+.Logiciel {
+  margin-left: 6%;
+}
+
+.Logiciel h3 {
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+
+.PhotoC {
+  margin: 3%;
+}
+
+.reseaux_sociaux {
+  display: flex;
+  justify-content: center;
+}
+
+.reseaux_sociaux img {
+  width: 5%;
+}
+
+.tag {
+  display: flex;
+  color: black;
+  margin: 19px;
+}
+
+/* JUDDIE */
+
+.presentation-Kdrama {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #f0bdb0;
+  width: 100%;
+}
+
+.imagedrama {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.serie {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  letter-spacing: 2px;
+  width: 50%;
+}
+
+.serie h2 {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.serie p {
+  margin-top: 4%;
+  font-size: 16px;
+  margin-left: 2%;
+}
+
+.serie ul {
+  text-align: center;
+  word-spacing: 5px;
+  list-style-type: none;
+}
+
+.serie li {
+  margin-top: 20px;
+}
+
+.kdrama-button {
+  padding: 10px;
+  line-height: 1em;
+  border-radius: 10px;
+  background-color: rgb(240, 224, 224);
+  border-color: rgb(240, 224, 224);
+}
+
+.kdrama-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.voyage {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.voyage-img img {
+  vertical-align: top;
+}
+
+.voyage-Mada {
+  margin-top: 6%;
+  margin-left: 2%;
+}
+
+.voyage-Angl {
+  margin-top: 6%;
+  margin-right: 2%;
+}
+
+.metier {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #e0e0e0;
+  padding: 2%;
+}
+
+.paraUX {
+  margin-left: 2%;
+  margin-top: 4%;
+  width: 50%;
+}
+
+.ux img {
+  width: 100%;
+  height: 100%;
+}
+
+.mesreseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.RS {
+  margin-top: 13%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.photoRS img {
+  width: 300px;
+  margin-top: 0px;
+}
+
+.RS button {
+  margin-top: 4%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  padding: 10px 5%;
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+}
+
+/* Léna */
+
+.lena-img {
+  position: relative;
+  width: 100%;
+}
